@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧠 The Mind | 3DVR Multiverse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #1a1c2c, #000);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="text-white font-sans min-h-screen flex flex-col">
+
+  <header class="p-6 flex justify-between items-center glass">
+    <h1 class="text-2xl font-bold">🧠 The Mind</h1>
+    <a href="universe.html" class="text-sm underline hover:text-blue-400">← Back to Universe</a>
+  </header>
+
+  <main class="flex-grow p-6 max-w-5xl mx-auto space-y-6">
+
+    <section class="glass rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">💡 Idea Generator</h2>
+      <p class="text-sm mb-4">Spark new ideas for your digital or physical worlds.</p>
+      <textarea class="w-full p-3 rounded bg-black bg-opacity-30 border border-white border-opacity-10 text-white" rows="5" placeholder="Write your idea..."></textarea>
+    </section>
+
+    <section class="glass rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">🧭 Mind Map</h2>
+      <p class="text-sm mb-4">Visualize the structure of your thoughts and intentions.</p>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">🧬 Conscious</div>
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">🌌 Subconscious</div>
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">📐 Logic</div>
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">🎨 Creativity</div>
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">🌙 Dreamspace</div>
+        <div class="p-4 bg-black bg-opacity-30 rounded text-center">⚙️ Systems</div>
+      </div>
+    </section>
+
+    <section class="glass rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">📓 Notes & Journals</h2>
+      <p class="text-sm mb-4">Write logs, theories, or insights over time.</p>
+      <textarea class="w-full p-3 rounded bg-black bg-opacity-30 border border-white border-opacity-10 text-white" rows="8" placeholder="Start journaling here..."></textarea>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm text-gray-400 py-4">
+    © 2025 3dvr.tech — Mind over Matter
+  </footer>
+
+</body>
+</html>
