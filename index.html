@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atom | The Seed of the Digital Multiverse</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(ellipse at center, #0f0c29, #302b63, #24243e);
+      background-attachment: fixed;
+      overflow: hidden;
+    }
+
+    .particles {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 0;
+      background: url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/star.png');
+      background-repeat: repeat;
+      animation: move 60s linear infinite;
+      opacity: 0.3;
+    }
+
+    @keyframes move {
+      from {background-position: 0 0;}
+      to {background-position: 10000px 10000px;}
+    }
+  </style>
+</head>
+<body class="text-white font-sans flex items-center justify-center h-screen relative">
+
+  <div class="particles"></div>
+
+  <main class="z-10 text-center px-6">
+    <h1 class="text-5xl md:text-7xl font-extrabold mb-4">Atom</h1>
+    <p class="text-xl md:text-2xl mb-6">The seed of the 3DVR Digital Multiverse</p>
+    <a href="universe.html" class="bg-white text-black px-6 py-3 rounded-full text-lg font-bold hover:bg-gray-300 transition">
+      Enter the World
+    </a>
+    <p class="mt-6 text-sm opacity-70">Built with 💠 by 3dvr.tech</p>
+  </main>
+
+</body>
+</html>
